@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Controller {
     @GetMapping("")
     public String hello(){
-        return "hellotest";
+        return "hello";
     }
 
 }
